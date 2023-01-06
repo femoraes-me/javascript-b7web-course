@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  text-align: center;
+}
+
+.header {
+  background-color: steelblue;
+}
+
+.header h1 {
+  color: ghostwhite;
+}
+
+/* INICIO ESTILIZAÇÃO SLIDER*/
+
+header {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.slider {
+  flex: 1;
+  overflow: hidden;
+}
+
+.slider-width {
+  height: 100%;
+  display: flex;
+  transition: ease all 0.3s;
+}
+
+.slider-item {
+  width: 100vw;
+  height: inherit;
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: ghostwhite;
+  text-shadow: 0px 2px 2px #333;
+  font-size: 100px;
+}
+
+.slider-controls {
+  position: absolute;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  color: ghostwhite;
+  font-size: 30px;
+}
+
+.slider-control {
+  background-color: steelblue;
+  padding: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+/* FIM ESTILIZAÇÃO SLIDER */
+
+section {
+  padding: 20px;
+  background-color: ghostwhite;
+}
+
+h1 {
+  padding: 10px;
+}
+
+p {
+  padding: 5px;
+  text-align: justify;
+}
+
+footer {
+  background-color: #333;
+  height: 100px;
+  color: ghostwhite;
+}
+
+footer p {
+  text-align: center;
+  line-height: 90px;
+}
